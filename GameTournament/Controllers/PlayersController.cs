@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace GameTournament.Controllers
+namespace TournamentUI.Controllers
 {
     public class PlayersController : Controller
     {
