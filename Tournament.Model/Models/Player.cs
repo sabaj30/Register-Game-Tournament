@@ -1,12 +1,11 @@
 ﻿namespace Tournament.Model.Models
 {
-    public class Player
+    public class Player : User
     {
         public int Id { get; set; }
-        public string? Name { get; set; }
-        public string? UserName { get; set; }
-        public string? Password { get; set; }
-        public ICollection<Tournament>? PlayerTournaments { get; set; }
-        public ICollection<Transaction>? Transactions { get; set; }
+        public string? NationalCode { get; set; }
+        public Team? Team { get; set; }
+        public ICollection<Tourney>? PlayerTournaments { get; set; }
+        public ICollection<Register>? Register { get; set; }
     }
 }

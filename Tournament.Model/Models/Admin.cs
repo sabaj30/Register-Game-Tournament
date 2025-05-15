@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Tournament.Model.Models
+﻿namespace Tournament.Model.Models
 {
-    internal class Admin
+    internal class Admin : User
     {
     }
 }
