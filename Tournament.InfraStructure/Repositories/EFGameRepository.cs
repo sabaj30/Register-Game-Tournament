@@ -17,7 +17,6 @@ namespace Tournament.InfraStructure.Repositories
         {
             tourneyContext.Game.Add(game);
             tourneyContext.SaveChanges();
-
         }
 
         public void Delete(int id)
